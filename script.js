@@ -59,6 +59,6 @@ form.addEventListener("submit", (e) => {
   }
 });
 
-// const redirectToNewPage = () => {
-//   window.location.href = "page.html";
-// };
+const redirectToNewPage = () => {
+  window.location.href = "page.html";
+};
