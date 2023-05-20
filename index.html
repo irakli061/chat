@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <script defer src="script.js"></script>
+    <title>Login-Register</title>
+  </head>
+  <body>
+    <div id="main">
+      <form id="form" action="" method="GET">
+        <div id="login" class="login">
+          <div id="username_div">
+            <label id="user_label" for="username">username</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              class="input"
+              placeholder="enter gmail adress"
+            />
+            <div class="errors" id="error_username"></div>
+          </div>
+          <div id="password_div">
+            <label for="password">password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              class="input"
+              placeholder="enter password"
+            />
+            <div class="errors" id="error_password"></div>
+          </div>
+          <br />
+          <button class="btn" onclick="login()">submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
